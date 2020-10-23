@@ -1,0 +1,9 @@
+#ищем знак числа
+namber=int(input())
+if namber>0: #число>0
+    print(1)
+elif namber<0: #так же если число <0
+    print(-1)
+else: #число равен ==0
+    print(0)
+

@@ -1,0 +1,7 @@
+mail = "jfjdnmdlkijug kjhy ijuh i sales lkjhll"
+spam = "sales"
+sendinq = False
+if spam not in mail:
+    sendinq = True
+    print(sendinq)
+else: print("это спам", sendinq)

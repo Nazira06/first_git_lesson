@@ -1,0 +1,17 @@
+hour_salary = 70
+salary = 0 # начальная з/п
+work = int(input("введите кол-во часов работы:"))
+work_day = 8 #рабочий день
+if work > 1 and work <= 24:
+    if work > work_day: #кол-во часов переработки
+        check = work = work_day #з.п включающая двойную ставку за переработанное время
+        salary = (work_day * hour_salary) + ((check * hour_salary)* 2)
+        print(f"ваша зврплата за сегодня:{salary}$")
+    else: #считаем зп
+        salary = hour_salary * work
+        print(f"ваша з.п за сегодня:{salary}$")
+else: print("ты врешь,ничего не получишь")
+
+
+
+
