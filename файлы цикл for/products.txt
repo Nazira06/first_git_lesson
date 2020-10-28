@@ -1,0 +1,4 @@
+bread 
+meat 
+egg 
+cheese 
