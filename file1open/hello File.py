@@ -1,0 +1,6 @@
+file1 =  open('test.txt', 'w')
+file1.write('Hello File')
+file1.close()
+file2 = open('test.txt')
+a = file2.read()
+print(a)

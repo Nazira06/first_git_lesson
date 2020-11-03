@@ -4,6 +4,6 @@ def factorial(number):
     while i <= number:
         result = result * i
         i = i + 1
-    print(result)
-factorial(5)
-factorial(6)
+    return result
+print(factorial(5))
+

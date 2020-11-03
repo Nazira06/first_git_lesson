@@ -1,3 +1,3 @@
-login=input()
-result=len(login)<20
-print(result)
+def double_char(txt):
+    empty = ''
+    for letter in

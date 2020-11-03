@@ -1,2 +1,2 @@
 string = "user user user user user"
-print(string.
+print(string.count('s'))
